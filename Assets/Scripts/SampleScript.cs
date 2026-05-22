@@ -5,8 +5,8 @@ public class SampleScript : MonoBehaviour
     private SpriteRenderer parentRenderer;
     private SpriteRenderer childRenderer;
 
-    [SerializeField] public Color parentColor;
-    [SerializeField] public Color childColor;
+    [SerializeField] private Color parentColor;
+    [SerializeField] private Color childColor;
 
     private void Start()
     {
