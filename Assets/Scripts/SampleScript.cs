@@ -15,27 +15,30 @@ public class SampleScript : MonoBehaviour
 
         parentRenderer.color = parentColor;
         childRenderer.color = childColor;
-        //Debug.Log("This code is starting");
+
+        Debug.Log("This code is starting");
     }
 
     private void Awake()
     {
-        //Debug.Log("This code is Awake");
+        Debug.Log("This code is Awake");
     }
 
     private void OnEnable()
     {
-        Debug.Log("This code is Enabled");
+        //Debug.Log("This code is Enabled");
+        Debug.Log("The Object Appears!");
     }
 
     private void OnDisable()
     {
-        Debug.Log("This code is disabled");
+        //Debug.Log("This code is disabled");
+        Debug.Log("The Object Vanishes........");
     }
 
     private void Update() //per frame, speed = base high end of CPU
     {
-        //Debug.Log("This code is running every frame");
+        Debug.Log("This code is running every frame");
     }
 
    
