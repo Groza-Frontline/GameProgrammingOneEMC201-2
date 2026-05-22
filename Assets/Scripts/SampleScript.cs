@@ -27,18 +27,18 @@ public class SampleScript : MonoBehaviour
     private void OnEnable()
     {
         //Debug.Log("This code is Enabled");
-        Debug.Log("The Object Appears!");
+        //Debug.Log("The Object Appears!");
     }
 
     private void OnDisable()
     {
         //Debug.Log("This code is disabled");
-        Debug.Log("The Object Vanishes........");
+        //Debug.Log("The Object Vanishes........");
     }
 
     private void Update() //per frame, speed = base high end of CPU
     {
-        Debug.Log("This code is running every frame");
+        //Debug.Log("This code is running every frame");
     }
 
    

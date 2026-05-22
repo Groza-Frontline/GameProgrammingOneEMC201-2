@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "name": "PlayerTestInput",
+    "maps": [
+        {
+            "name": "TestInputAction",
+            "id": "9e100d98-79c7-43e7-b72d-04bbc3e1226b",
+            "actions": [
+                {
+                    "name": "ChangePosition",
+                    "type": "Button",
+                    "id": "62609683-1412-4f94-bc9e-6f924b92d45b",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "1c023789-8873-40fe-bfbc-c3e3b3a0fe1d",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ChangePosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
