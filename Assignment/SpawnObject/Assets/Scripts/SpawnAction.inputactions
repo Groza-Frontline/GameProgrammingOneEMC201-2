@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "name": "SpawnAction",
+    "maps": [
+        {
+            "name": "SpawnObj",
+            "id": "8789160a-42f7-453a-89bd-989f315a3447",
+            "actions": [
+                {
+                    "name": "Spawn",
+                    "type": "Button",
+                    "id": "0d90f85a-e732-4592-b772-9decb6fbbef3",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c98185a9-f526-49c0-9a8d-aa08288e2083",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Spawn",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
