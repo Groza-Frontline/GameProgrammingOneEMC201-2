@@ -24,11 +24,7 @@ public class SpawnerScript : MonoBehaviour
 
             GameObject newPrefab = Instantiate(Prefabs[randomIndex], randomPos[randomPosition], randomRot[randomRotation]);
             newPrefab.AddComponent<Rigidbody>();
-            newPrefab.name = "CuriosCapsule";
-            newPrefab.name = "SmileySphere";
-            newPrefab.name = "ConfusedCube";
-            newPrefab.name = "ProudPlane";
-            newPrefab.name = "CryingCylinder";
+            newPrefab.name = Prefabs[randomIndex].name;
         };  
     }
 
